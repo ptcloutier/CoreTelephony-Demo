@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern4" translatesAutoresizingMaskIntoConstraints="NO" id="keC-Dg-yle"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dID-dV-Gpe">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="h2z-Km-O9r"/>
+                                    <constraint firstAttribute="width" constant="280" id="p8R-BG-AAF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <state key="normal" title="M A K E  A  C A L L" backgroundImage="phone">
+                                    <color key="titleColor" red="1" green="1" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="callButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YOj-UV-3O9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97311580880000004" green="0.27232488389999998" blue="0.27950851389999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="keC-Dg-yle" secondAttribute="trailing" constant="-16" id="14X-a1-wvR"/>
+                            <constraint firstItem="keC-Dg-yle" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Bjv-YR-YBb"/>
+                            <constraint firstItem="dID-dV-Gpe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hd4-5z-MMI"/>
+                            <constraint firstItem="dID-dV-Gpe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JbX-0k-vVp"/>
+                            <constraint firstItem="keC-Dg-yle" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="K8F-TS-x3r"/>
+                            <constraint firstItem="dID-dV-Gpe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sly-2f-0Wq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="keC-Dg-yle" secondAttribute="bottom" id="qQa-aG-VtQ"/>
+                            <constraint firstItem="dID-dV-Gpe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ych-kB-eTp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pattern4" width="600" height="500"/>
+        <image name="phone" width="773" height="1219"/>
+    </resources>
+</document>
