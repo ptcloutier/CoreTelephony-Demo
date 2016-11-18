@@ -20,8 +20,13 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
+<<<<<<< HEAD
 .DS_Store
 */xcuserdata/*
+=======
+*/xcuserdata/*
+.DS_Store
+>>>>>>> origin/master
 
 ## Obj-C/Swift specific
 *.hmap
